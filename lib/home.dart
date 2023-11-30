@@ -73,7 +73,7 @@ class _HomeState extends State<Home> {
             pageIndex: selectedTab,
             onTap: (index){
               if(index == selectedTab){
-                items[index].navKey.currentState?. popUntil((route) => route.isFirst);
+                items[index].navKey.currentState?.popUntil((route) => route.isFirst);
               }else{
                 setState(() {
                   selectedTab = index;

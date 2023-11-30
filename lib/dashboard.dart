@@ -90,7 +90,7 @@ class _DashBoardState extends State<DashBoard> {
                       // height: 70,
                       width: MediaQuery.sizeOf(context).width * .91,
                       decoration: BoxDecoration(
-                          color: Colors.blue,
+                          color: Colors.black45,
                           borderRadius: BorderRadius.circular(10)),
                       child: Column(
                         children: [

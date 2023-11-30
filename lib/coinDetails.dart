@@ -75,7 +75,7 @@ class _CoinDetailsState extends State<CoinDetails> {
               Container(
                       height: 260,
                       margin: const EdgeInsets.only(bottom: 15),
-                      color: Colors.red,
+                      // color: Colors.red,
                       child: LineChart(LineChartData(
                           titlesData:  FlTitlesData(
                               leftTitles: AxisTitles(

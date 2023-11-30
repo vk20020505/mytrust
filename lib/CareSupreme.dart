@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mytrust/coinDetails.dart';
+import 'package:mytrust/jitendraHomePage.dart';
 import 'package:mytrust/sellCoins.dart';
 class CareSupreme extends StatelessWidget {
   const CareSupreme({super.key});
@@ -52,7 +53,7 @@ class CareSupreme extends StatelessWidget {
           ],
         ),
         body: Padding(
-          padding: const EdgeInsets.all(20.0),
+          padding: const EdgeInsets.all(10.0),
           child: SingleChildScrollView(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -60,7 +61,7 @@ class CareSupreme extends StatelessWidget {
                 Container(
                   // height: 110,
                   padding:
-                      const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+                      const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
                   width: double.infinity,
                   decoration: BoxDecoration(
                     color: Colors.blueGrey[900],
@@ -194,7 +195,7 @@ class CareSupreme extends StatelessWidget {
                               Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) {
-                    return const CoinDetails();
+                    return const Calculator();
                   }),
                 );
                           },
